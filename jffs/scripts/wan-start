@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Leave VOIP traffic tagged for original router
-/usr/sbin/robocfg vlan 7 ports "0t 4t 5t"
+/usr/sbin/robocfg vlan 34 ports "0t 4t 5t"
 
 # Setup VLAN4 on the CPU as well so we can talk to it
 /usr/sbin/robocfg vlan 4 ports "0t 5t"
